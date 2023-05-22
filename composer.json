@@ -1,0 +1,37 @@
+{
+    "name": "sujan97825/laravel-webp-converter",
+    "description": "Convert jpg,jpeg,png,webp image to webp,Compress & Resize Image",
+    "keywords": [
+        "webp",
+        "laravel",
+        "webp"
+
+    ],
+    "homepage": "https://github.com/sujan97825/laravel-webp-converter",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sujan\\LaravelWebpConverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sujan97825",
+            "email": "sujanmahmudovi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sujan\\LaravelWebpConverter\\WebpConverterServiceProvider"
+            ],
+            "aliases": {
+                "WebpConverter": "Sujan\\LaravelWebpConverter\\WebpConverter"
+            }
+        }
+    }
+}
